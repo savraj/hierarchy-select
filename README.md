@@ -1,4 +1,13 @@
-# Hierarchy Select jQuery Plugin for Twitter Bootstrap 4
+# Hierarchy Select jQuery Plugin for Twitter Bootstrap 5 -- fork.
+
+Fork that supports Bootstrap 5. Minor 'fix' in the JS code and adapting the html.
+
+to get it running locally,
+
+```
+npm install
+grunt
+```
 
 [![Build Status](https://travis-ci.com/NeoFusion/hierarchy-select.svg?branch=v2)](https://travis-ci.com/NeoFusion/hierarchy-select)
 
