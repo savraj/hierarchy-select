@@ -78,6 +78,7 @@
         setSelected: function(a) {
             if (a.length && this.previouslySelected !== a) {
                 var text = a.text();
+                if (a.data('display-val')) text = a.data('display-val');
                 var value = a.data('value');
                 this.previouslySelected = a;
                 this.$button.html(text);
